@@ -1,0 +1,16 @@
+
+* R7RS compliance test
+
+This tool measures the R7RS compliance levels of multiple Scheme
+implementations, and formats the output onto a web page.
+
+It also runs the Larceny benchmarks, and ranks implementations based on
+performance.
+
+** Requirements
+
+1. Install the Scheme implementations under test, and make sure they are on
+   =$PATH=.
+2. Edit =implementations.sld= in =compliance= with additional information
+   about the implementations under test, if necessary.
+3. Run =gosh main.scm=.
