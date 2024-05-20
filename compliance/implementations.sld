@@ -32,5 +32,5 @@
     (define racket (make-implementation "Racket" "racket" ""))
     (define s7 (make-implementation "S7" "s7" "repl"))
     (define sagittarius (make-implementation "Sagittarius" ))
-
+    (define stklos (make-implementation "STklos" "stklos"))
     ))
